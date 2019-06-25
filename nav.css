@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 微軟正黑體;
+    box-sizing: border-box;
+}
+.navbox{
+    margin: 30 0 50 0;
+    background-color: rgb(140, 51, 34);
+}
+img{
+    width: 150px;
+    height: 75px;
+}
+.navbox ul{
+    float: right;
+    margin: 40px 40px 0 0 ;
+}
+.navbox ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 15px;
+}
+.navbox a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
