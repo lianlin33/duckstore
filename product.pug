@@ -1,3 +1,9 @@
+mixin creatproduct(product,productimg,title,content,price)
+    img(src=productimg)
+    dic(class=product)
+        h4=title
+        p=content
+        h4=price
 <!DOCTYPE html>
 html(lang="zh")
     head
@@ -9,5 +15,11 @@ html(lang="zh")
         .about
             h3(class="producttitle") 產品介紹
             .productbox
-                
+                +creatproduct("allone","duck.png","全隻","含鴨翅，祭拜用","530/隻")
+                +creatproduct("one","duck.png","一隻","一鴨兩吃","500/隻")
+                +creatproduct("half","duck.png","半隻","一鴨兩吃","270/隻")
+                +creatproduct("cookie","duck.png","餅皮","手工製作","10/份")
+                +creatproduct("ssauce","duck.png","甜麵醬","大包特製醬料","10/份")
+                +creatproduct("onion","duck.png","蔥段","一份兩包","10/份")
+                +creatproduct("vagatable","duck.png","青菜","芥藍菜","50/份")              
         include flooter.pug
