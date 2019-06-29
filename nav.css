@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 微軟正黑體;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 .nav{
     background-color: rgb(90, 86, 85);
