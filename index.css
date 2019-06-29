@@ -2,62 +2,76 @@
     font-family: 微軟正黑體;
 }
 /* 首圖 */
-.main{
+.banner{
     width: 100%;
-    height: 600px;
+    height: 900px;
     margin: 0px auto;
     background-image: url(banner.jpeg);
+    background-size: cover;
+    color: #fff;
 }
-.main .title{
+.banner .title{
     text-align: left;
+    padding-top: 250px;
+    padding-left: 200px;
+    font-size: 24px;
 }
-.main .title p{
+.banner .title p{
     padding: 10px;
 }
 /* 本月公休 */
 .date{
-    height: 600px;
-
+    width: 80%;
+    margin: 0  auto;
 }
-.date h3,.date p{
-    padding: 5px;
+.date h2,.date p{
+    padding: 5px 0;
     text-align: center;
 }
 .date img{
-    display: inline-block;
+    display: block;
     margin: 0 auto;
+    width: 400px;
+    height: 400px;
 }
 /* 簡介 */
 .about{
-    height: 700px;
+    /* height: 600px; */
     width: 80%;
-    margin: 0 auto;
-    padding: 120px 0;
+    margin: 30px auto;
+    /* padding: 50px 0; */
     overflow: hidden;
     display: grid;
     grid-template-columns: auto auto;
 }
 .about img{
-    /* 如何讓圖片靠右文字靠左 */
+    margin-left: 100px;
     width: 600px;
     height: 450px;
 }
 .about .content{
     margin: auto 0;
+    margin-left: 100px;
     padding: 10px 0;
 }
 /* 價目表 */
 .pricetitle,.contactitle{
     text-align: center;
-    margin: 100px 0 50px 0;
+    margin: 30px 0;
+    margin-top: 50px;
 }
 .pricebox{
     width: 80%;
     margin: 0 auto;
-    padding: 20px;
+    /* padding: 20px; */
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    background-color: rgb(253, 238, 222);
+    grid-template-columns: auto auto auto;
+    background-color: rgb(233, 168, 157);
+}
+.one,.half,.allone{
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+    border: 1px solid white;
+    padding: 30px;
 }
 .pricebox .allone img,.pricebox .one img,.pricebox .half img{
     width: 80px;
@@ -74,10 +88,6 @@
 .pricebox h1{
     margin: 30px 0;
 }
-.pricebox .others img{
-    width: 50px;
-    height: 50px;
-}
 .pricebox  ul li {
     list-style: none;
     list-style-type: decimal;
@@ -88,22 +98,54 @@
 .pricebox ul{
     margin-top: 50px;
 }
-.pricebox .others h2{
-    text-align: center;
-    margin: 20px 0;
-}
-.pricebox h4{
-    display: inline;
-}
 /* 配料加購 */
-.others{
+.price .others h2{
+    text-align: center;
+    padding-top: 10px;
+}
+.price .others{
+    width: 80%;
     margin: 0 auto;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+    border: 1px solid white;
+    background-color: rgb(241, 148, 148);
+}
+.price .others .otherbox{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.price .others .otherbox img{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.creatothers{
+    margin: 10px;
 }
 .otherstitle{
-    margin-left: 50px;
+    margin-top: 20px;
 }
-.othersprice{
+.othersprice,.otherstitle{
     text-align: center;
+    padding-bottom: 20px;
+}
+/* 立即訂購 */
+.orderbutton{
+    text-align: center;
+    margin-top: 50px;
+}
+.orderbutton a{
+    height: 80px;
+    width: 160px;
+    display: inline-block;
+    background-color: rgb(150, 10, 10);
+    color: #fff;
+    text-decoration: none;
+    line-height: 80px;
+    border-radius: 60px;
+    font-size: 18px;
 }
 /* 聯絡資訊 */
 .contact{
@@ -113,16 +155,12 @@
     grid-template-columns: auto auto;
 }
 .contact img{
+    display: block;
     width: 500px;
     height: 500px;
     margin-bottom: 100px;
+    margin-left: 200px;
 }
 .contact .content{
-    margin: 30px 0;
-}
-.contact h3{
-    margin: 10px 0;
-}
-.contact p{
-    margin: 10px 0 ;
-}
+    margin: 100px 0;
+    margin-right: 100px ;
