@@ -19,51 +19,49 @@
 .banner .title p{
     padding: 10px;
 }
-/* 本月公休 */
-.date{
-    width: 80%;
-    margin: 0  auto;
-}
-.date h2,.date p{
-    padding: 5px 0;
-    text-align: center;
-}
-.date img{
-    display: block;
-    margin: 0 auto;
-    width: 400px;
-    height: 400px;
-}
 /* 簡介 */
 .about{
-    /* height: 600px; */
     width: 80%;
-    margin: 30px auto;
-    /* padding: 50px 0; */
+    margin: 150px auto;
     overflow: hidden;
     display: grid;
     grid-template-columns: auto auto;
 }
 .about img{
-    margin-left: 100px;
+    /* margin-left: 50px; */
     width: 600px;
     height: 450px;
 }
 .about .content{
     margin: auto 0;
-    margin-left: 100px;
+    margin-left: 50px;
     padding: 10px 0;
 }
-/* 價目表 */
-.pricetitle,.contactitle{
+/* 本月公休 */
+.date{
+    width: 80%;
+    margin: 50px  auto;
+}
+.date h2,.date p{
     text-align: center;
-    margin: 30px 0;
-    margin-top: 50px;
+}
+.date p{
+    padding: 10px 0;
+}
+.date img{
+    display: block;
+    margin: 50px auto;
+    width: 500px;
+    height: 500px;
+}
+/* 價目表 */
+.pricetitle{
+    text-align: center;
+    margin: 10px 0;
 }
 .pricebox{
     width: 80%;
     margin: 0 auto;
-    /* padding: 20px; */
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: rgb(233, 168, 157);
@@ -71,7 +69,7 @@
 .one,.half,.allone{
     box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
     border: 1px solid white;
-    padding: 30px;
+    padding: 10px;
 }
 .pricebox .allone img,.pricebox .one img,.pricebox .half img{
     width: 80px;
@@ -86,7 +84,7 @@
     margin: 20px 0 10px 0;
 }
 .pricebox h1{
-    margin: 30px 0;
+    margin: 10px 0;
 }
 .pricebox  ul li {
     list-style: none;
@@ -96,12 +94,12 @@
     padding: 5px;
 }
 .pricebox ul{
-    margin-top: 50px;
+    margin-top: 10px;
 }
 /* 配料加購 */
 .price .others h2{
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 .price .others{
     width: 80%;
@@ -119,35 +117,36 @@
     width: 50px;
     height: 50px;
     margin: 0 auto;
-    margin-top: 20px;
-}
-.creatothers{
-    margin: 10px;
+    margin-top: 10px;
 }
 .otherstitle{
     margin-top: 20px;
 }
 .othersprice,.otherstitle{
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 /* 立即訂購 */
 .orderbutton{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .orderbutton a{
-    height: 80px;
-    width: 160px;
+    height: 60px;
+    width: 140px;
     display: inline-block;
     background-color: rgb(150, 10, 10);
     color: #fff;
     text-decoration: none;
-    line-height: 80px;
-    border-radius: 60px;
+    line-height: 60px;
+    border-radius: 40px;
     font-size: 18px;
 }
 /* 聯絡資訊 */
+.contactitle{
+    text-align: center;
+    margin: 30px 0 ;
+}
 .contact{
     width: 80%;
     margin: 0 auto;
@@ -158,9 +157,8 @@
     display: block;
     width: 500px;
     height: 500px;
-    margin-bottom: 100px;
-    margin-left: 200px;
+    margin: 50px 0;
 }
 .contact .content{
-    margin: 100px 0;
+    margin-top: 200px;
     margin-right: 100px ;
