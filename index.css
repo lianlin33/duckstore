@@ -160,5 +160,12 @@
     margin: 50px 0;
 }
 .contact .content{
-    margin-top: 200px;
+    margin-top: 150px;
     margin-right: 100px ;
+}
+.contact .content p{
+    padding: 10px 0;
+}
+.contact .content h3{
+    padding: 10px 0;
+}
