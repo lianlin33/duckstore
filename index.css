@@ -1,27 +1,21 @@
 *{
     font-family: 微軟正黑體;
 }
+/* 首圖 */
 .main{
-    width: 80%;
+    height: 600px;
     margin: 0 auto;
-}
-.main img{
-    display: block;
-    margin: 30px auto;
-    width: 500px;
-    height: 300px;
-    overflow: hidden;
-}
-.main .title p{
-    text-align: center;
-    padding: 3px;
+    background-image: url(banner.jpeg);
 }
 .main .title{
-    margin: 30px;
+    text-align: left;
+}
+.main .title p{
     padding: 10px;
 }
+/* 本月公休 */
 .main .date{
-    margin: 30px auto;
+    margin:auto auto;
 }
 .main .date h3, .main .date p{
     padding: 5px;
