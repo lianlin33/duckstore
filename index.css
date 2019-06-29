@@ -4,7 +4,7 @@
 /* 首圖 */
 .main{
     height: 600px;
-    margin: 0 auto;
+    margin: 30px auto;
     background-image: url(banner.jpeg);
 }
 .main .title{
@@ -14,34 +14,39 @@
     padding: 10px;
 }
 /* 本月公休 */
-.main .date{
-    margin:auto auto;
+.date{
+    height: 600px;
+
 }
-.main .date h3, .main .date p{
+.date h3,.date p{
     padding: 5px;
     text-align: center;
 }
-.main .date img{
+.date img{
+    display: inline-block;
     margin: 0 auto;
 }
+/* 簡介 */
 .about{
+    height: 700px;
     width: 80%;
     margin: 0 auto;
+    padding: 120px 0;
     overflow: hidden;
     display: grid;
     grid-template-columns: auto auto;
-
 }
 .about img{
     /* 如何讓圖片靠右文字靠左 */
     display: inline-block;
-    margin-right: 0;
     width: 600px;
     height: 450px;
 }
 .about .content{
     margin: auto 0;
+    padding: 10px 0;
 }
+/* 價目表 */
 .pricetitle,.contactitle{
     text-align: center;
     margin: 100px 0 50px 0;
