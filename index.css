@@ -1,0 +1,127 @@
+*{
+    font-family: 微軟正黑體;
+}
+.main{
+    width: 80%;
+    margin: 0 auto;
+}
+.main img{
+    display: block;
+    margin: 30px auto;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+}
+.main .title p{
+    text-align: center;
+    padding: 3px;
+}
+.main .title{
+    margin: 30px;
+    padding: 10px;
+}
+.main .date{
+    margin: 30px auto;
+}
+.main .date h3, .main .date p{
+    padding: 5px;
+    text-align: center;
+}
+.main .date img{
+    margin: 0 auto;
+}
+.about{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+.about img{
+    /* 如何讓圖片靠右文字靠左 */
+    display: inline-block;
+    margin-right: 0;
+    width: 600px;
+    height: 450px;
+}
+.about .content{
+    margin: auto 0;
+}
+.pricetitle,.contactitle{
+    text-align: center;
+    margin: 100px 0 50px 0;
+}
+.pricebox{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(253, 238, 222);
+}
+.pricebox .allone img,.pricebox .one img,.pricebox .half img{
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: 10px auto;
+}
+.pricebox p,.pricebox h3,.pricebox h1{
+    text-align: center;;
+}
+.pricebox h3{
+    margin: 20px 0 10px 0;
+}
+.pricebox h1{
+    margin: 30px 0;
+}
+.pricebox .others img{
+    width: 50px;
+    height: 50px;
+}
+.pricebox  ul li {
+    list-style: none;
+    list-style-type: decimal;
+    font-size: 18px;
+    margin-left: 50px;
+    padding: 5px;
+}
+.pricebox ul{
+    margin-top: 50px;
+}
+.pricebox .others h2{
+    text-align: center;
+    margin: 20px 0;
+}
+.pricebox h4{
+    display: inline;
+}
+.others{
+    margin: 0 auto;
+}
+.otherstitle{
+    margin-left: 50px;
+}
+.othersprice{
+    text-align: center;
+}
+.contact{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.contact img{
+    width: 500px;
+    height: 500px;
+    margin-bottom: 100px;
+}
+.contact .content{
+    margin: 30px 0;
+}
+.contact h3{
+    margin: 10px 0;
+}
+.contact p{
+    margin: 10px 0 ;
+}

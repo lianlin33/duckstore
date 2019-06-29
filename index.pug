@@ -1,70 +1,76 @@
-mixin others(photo,title,price)
-    img(src=photo)
-    h5=title
-    h5=price
+mixin creatothers(photo,title,price)
+    .creatothers
+        img(src=photo)
+        h4(class="otherstitle")=title
+        h4(class="othersprice")=price
 
 <!DOCTYPE html>
 html(lang="zh")
     head
         meta(charset="UTF-8")
         title 便宜坊烤鴨專賣店
+        link(rel="stylesheet", href="index.css")
     body
+        include nav.pug
         .main
-            include nav.pug
             img(src="banner.jpeg")
-            .new
-                h1 最新消息
-                hr
+            .title
+                p 飄香30個年頭，
+                p 不只是份熟悉的美味，
+                p 更藏著許多無法抹滅的回憶。
             .date
-                h1 本月公休日
+                h3 本月公休日
+                p 6/12、6/26
                 img(src="date.png")
         .about
             img(src="indexphoto.jpeg")
             .content
                 h2 Lorem ipsum dolor sit amet.
                 p Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dignissimos nisi quaerat.
+        h2(class="pricetitle") 價目表
         .pricebox
-            h3 價目表
             .allone
                 img(src="duck.png")
                 h3 全隻
                 p 整隻包含鴨翅（拜拜用）
-                h4 530/隻
+                h1 530/隻
                 ul
-                    il 餅皮 *2
-                    il 甜麵醬（大）*1
-                    il 蔥段 *2
+                    li 餅皮 *2
+                    li 甜麵醬（大）*1
+                    li 蔥段 *2
             .one
                 img(src="duck.png")
                 h3 一隻
                 p 一鴨兩吃
-                h4 500/隻
-                ul
-                    il 餅皮 *2
-                    il 甜麵醬（大）*1
-                    il 蔥段 *2
+                h1 500/隻
+                ul                    
+                    li 餅皮 *2
+                    li 甜麵醬（大）*1                    
+                    li 蔥段 *2
             .half
                 img(src="duck.png")
                 h3 半隻
                 p 一鴨兩吃
-                h4 270/隻
+                h1 270/隻
                 ul
-                    il 餅皮 *1
-                    il 甜麵醬（小）*1
-                    il 蔥段 *1
+                    li 餅皮 *1
+                    li 甜麵醬（小）*1
+                    li 蔥段 *1
             .others
-                +others("duck.png","餅皮","10元/包")
-                +others("duck.png","蔥段","10元/2包")
-                +others("duck.png","甜麵醬（小）","5元/包")
-                +others("duck.png","甜麵醬（大）","10元/包")
-                +others("duck.png","芥蘭菜","50元/份")
+                h2 【配料加購】
+                +creatothers("duck.png","餅皮","10元/包")
+                +creatothers("duck.png","蔥段","10元/2包")
+                +creatothers("duck.png","甜麵醬（小）","5元/包")
+                +creatothers("duck.png","甜麵醬（大）","10元/包")
+                +creatothers("duck.png","芥蘭菜","50元/份")
+        h2(class="contactitle") 聯絡資訊
         .contact
             img(src="map.png")
             .content
-                h3 地址
-                p 台南市北區長榮路四段229號（原三角窗）
                 h3 電話
                 p 06-2341845
                 p 06-2742140
+                h3 地址
+                p 台南市北區長榮路四段229號（原三角窗）
         flooter 
             include flooter.pug

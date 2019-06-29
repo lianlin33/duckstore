@@ -1,0 +1,24 @@
+/* 關於我們 */
+*{
+    font-family: 微軟正黑體;
+}
+.about{
+    width: 80%;
+    margin: 0   auto;
+}
+.about h3{
+    margin: 50px 0 0 0;
+}
+.aboutbox{
+    display: grid;
+    grid-template-columns: auto auto
+}
+.aboutbox img{
+    width: 600px;
+    height: 500px;
+    margin: 30px 0;
+}
+.aboutcontent{
+    margin: auto 0;
+    padding-left:40px ;
+}
