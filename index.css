@@ -95,6 +95,7 @@
 .pricebox h4{
     display: inline;
 }
+/* 配料加購 */
 .others{
     margin: 0 auto;
 }
@@ -104,6 +105,7 @@
 .othersprice{
     text-align: center;
 }
+/* 聯絡資訊 */
 .contact{
     width: 80%;
     margin: 0 auto;
