@@ -4,10 +4,10 @@
 }
 .about{
     width: 80%;
-    margin: 0   auto;
+    margin: 0  auto;
 }
 .about h3{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .about .aboutbox{
     display: grid;
@@ -36,4 +36,39 @@
 }
 .productbox h4,.productbox p{
     display: inline;
+}
+/* 訂購專區 */
+.order{
+    width: 80%;
+    margin: 20px  auto;
+}
+.orderbox{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.order h3{
+    padding: 20px 0;
+}
+.order  .terms p{
+    font-size: 15px;
+    padding-right: 50px;
+}
+#ture , #fause{
+    width: 80px;
+    /* 為什麼高度無法變更 */
+    height: 100px;
+    margin: 10px 0 ;
+}
+.choose h5{
+    margin: 10px 0;
+    font-size: 18px;
+    display: inline;
+}
+#name,#phone,#add,#password,#count{
+    width: 80px;
+    height: 20px;
+    margin: 10px;
+}
+,#takeout,#freight,#nohot,#smallhot,#midhot,#bighot{
+
 }

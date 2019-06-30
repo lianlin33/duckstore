@@ -17,23 +17,88 @@
         </ul>
       </div>
     </div>
-    <div class="about">
+    <div class="order">
       <h3 class="ordertitle">訂購專區</h3>
       <div class="orderbox">
-        <form>
-          <label for="name">姓名</label>
-          <input type="text" id="name"/>
-          <label for="phone">電話</label>
-          <input type="text" id="phone"/>
-          <label for="password">密碼</label>
-          <input type="password" id="password"/>
-          <label for="quantity">數量</label>
-          <input type="text" id="quantity"/>
-          <div>隻</div>
-          <label for="remarks">備註</label>
-          <input type="text" id="remarks"/>
-          <input class="button" type="submit" value="確認送出"/>
-        </form>
+        <div class="choose">
+          <div class="terms">
+            <h3>感謝您訂購便宜坊烤鴨</h3>
+            <p>依據中華民國「個人資料保護法」與相關法令之規範，蒐集、處理及利用您的個人資料，包含識別個人姓名、行動電話、地址等，上述個人資料之蒐集、處理及利用，本問卷將僅限行政業務需求使用，並遵守個資法之規定妥善保護您的個人資訊。 </p>
+            <label for="ture"> </label>
+            <input type="button" value="我接受" id="ture"/>
+            <label for="fause"> </label>
+            <input type="button" value="我不接受" id="fause"/>
+          </div>
+          <div class="name">
+            <h5>姓名</h5>
+            <label for="name"> </label>
+            <input type="text" id="name"/>
+          </div>
+          <div class="phone">           
+            <h5>電話</h5>
+            <label for="phone"> </label>
+            <input type="text" id="phone"/>
+          </div>
+          <div class="add">  
+            <h5>地址</h5>
+            <label for="add"> </label>
+            <input type="text" id="add"/>
+          </div>
+          <div class="password">
+            <h5>密碼</h5>
+            <p>請填入六位數字，作為訂餐代碼</p>
+            <label for="password"> </label>
+            <input type="text" id="password"/>
+          </div>
+          <div class="takeout">
+            <h5>取貨方式</h5>
+            <label for="takeout"> </label>
+            <input type="button" value="自取" id="takeout"/>
+            <label for="ㄍfreight"> </label>
+            <input type="button" value="宅配" id="freight"/>
+          </div>
+          <div class="count">
+            <h5>購買數量</h5>
+            <label for="count"></label>
+            <input type="text" id="count"/>
+          </div>
+          <div class="hot">
+            <h5>辣度</h5>
+            <label for="nohot"> </label>
+            <input type="button" value="不辣" id="nohot"/>
+            <label for="smallhot"> </label>
+            <input type="button" value="小辣" id="smallhot"/>
+            <label for="midhot"> </label>
+            <input type="button" value="中辣" id="midhot"/>
+            <label for="bighot"> </label>
+            <input type="button" value="大辣" id="bighot"/>
+          </div>
+          <div class="ingredients">
+            <h5>配料加購</h5>
+            <label for="cookie"> </label>
+            <input type="button" value="餅皮" id="cookie"/>
+            <label for="sauce"> </label>
+            <input type="button" value="甜麵醬" id="sauce"/>
+            <label for="onion"> </label>
+            <input type="button" value="蔥段" id="onion"/>
+            <label for="vagatable"> </label>
+            <input type="button" value="青菜" id="vagatable"/>
+            <label for="oneingredients"> </label>
+            <input type="button" value="一隻配料" id="oneingredients"/>
+            <label for="halfingredients"> </label>
+            <input type="button" value="半隻配料" id="halfingredients"/>
+          </div>
+          <div class="remarks">
+            <label for="remarks">備註</label>
+            <input type="text" id="remarks"/>
+          </div>
+        </div>
+        <div class="orderlist">
+          <h3>訂購清單</h3>
+          <div class="listbox">
+            <input class="button" type="submit" value="確認送出"/>
+          </div>
+        </div>
       </div>
     </div>
     <link rel="stylesheet" href="flooter.css"/>
